@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>IAwk.IocContainer</id>
+		<version>1.0.0</version>
+		<title>Ioc container abstraction</title>
+		<authors>S. Strebulaev</authors>
+		<owners>S. Strebulaev</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Inversion of Control Abstraction</description>
+		<copyright>Copyright 2015</copyright>
+		<tags>Ioc DI</tags>
+	</metadata>
+</package>
