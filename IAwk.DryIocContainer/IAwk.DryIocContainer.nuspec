@@ -2,13 +2,19 @@
 <package >
 	<metadata>
 		<id>IAwk.DryIocContainer</id>
-		<version>1.0.0</version>
-		<title>DryIoc container implementation</title>
+		<version>1.0.1</version>
+		<title>IAwk.DryIocContainer</title>
 		<authors>S. Strebulaev</authors>
 		<owners>S. Strebulaev</owners>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>DryIoc container implementation</description>
 		<copyright>Copyright 2015</copyright>
-		<tags>Ioc DI</tags>
+		<tags>Ioc DI DryIoc</tags>
+		<licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+		<releaseNotes>Added IIocContainer(IDependecyModule) implementation</releaseNotes>
+		<dependencies>
+			<dependency id="DryIoc.dll" version="1.4.1" />
+			<dependency id="IAwk.IocContainer" version="1.0.1" />
+		</dependencies>
 	</metadata>
 </package>

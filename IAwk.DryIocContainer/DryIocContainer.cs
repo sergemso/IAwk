@@ -122,6 +122,11 @@ namespace IAwk.DryIocContainer
             Dispose(false);
         }
 
+        public void Register(IDependencyModule module)
+        {
+            module.Register(this);
+        }
+
         protected virtual void Dispose(Boolean isDisposing)
         {
             if (!_isDisposed)
