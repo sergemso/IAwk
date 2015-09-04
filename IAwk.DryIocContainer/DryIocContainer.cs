@@ -122,7 +122,7 @@ namespace IAwk.DryIocContainer
             Dispose(false);
         }
 
-        public void Register(IDependencyModule module)
+        public void RegisterModule(IDependencyModule module)
         {
             module.Register(this);
         }

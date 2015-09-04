@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>IAwk.IocContainer</id>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 		<title>IAwk.IocContainer</title>
 		<authors>S. Strebulaev</authors>
 		<owners>S. Strebulaev</owners>
@@ -10,7 +10,7 @@
 		<description>Inversion of Control Abstraction</description>
 		<copyright>Copyright 2015</copyright>
 		<tags>Ioc DI</tags>
-		<releaseNotes>Added IDependencyModule registration</releaseNotes>
+		<releaseNotes>Renamed IIocContainer.Register(IDependencyModule) method</releaseNotes>
 		<licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
 	</metadata>
 </package>

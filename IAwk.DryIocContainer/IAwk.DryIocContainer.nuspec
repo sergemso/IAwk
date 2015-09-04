@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>IAwk.DryIocContainer</id>
-		<version>1.0.1</version>
+		<version>1.0.2</version>
 		<title>IAwk.DryIocContainer</title>
 		<authors>S. Strebulaev</authors>
 		<owners>S. Strebulaev</owners>
@@ -11,10 +11,10 @@
 		<copyright>Copyright 2015</copyright>
 		<tags>Ioc DI DryIoc</tags>
 		<licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
-		<releaseNotes>Added IIocContainer(IDependecyModule) implementation</releaseNotes>
+		<releaseNotes>Renamed DryIocContainer.Register(IDependencyModule) method</releaseNotes>
 		<dependencies>
 			<dependency id="DryIoc.dll" version="1.4.1" />
-			<dependency id="IAwk.IocContainer" version="1.0.1" />
+			<dependency id="IAwk.IocContainer" version="1.0.2" />
 		</dependencies>
 	</metadata>
 </package>
