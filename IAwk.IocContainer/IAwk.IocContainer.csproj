@@ -34,12 +34,15 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IDependencyModule.cs" />
     <Compile Include="IIocContainer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="IAwk.IocContainer.1.0.0.nupkg" />
-    <None Include="IAwk.IocContainer.nuspec" />
+    <None Include="IAwk.IocContainer.nuspec">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

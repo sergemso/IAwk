@@ -23,5 +23,6 @@ namespace IAwk.IocContainer
         void Register<T>(T instance, String name);
         IIocContainer CreateScope();
         void Register<T>(Func<T> factory);
+        void Register(IDependencyModule module);
     }
 }
