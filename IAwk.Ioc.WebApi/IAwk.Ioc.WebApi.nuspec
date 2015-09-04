@@ -10,5 +10,6 @@
 		<description>DI support for Asp.Net WebApi ApiController</description>
 		<copyright>Copyright 2015</copyright>
 		<tags>Ioc DI</tags>
+		<licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
 	</metadata>
 </package>
